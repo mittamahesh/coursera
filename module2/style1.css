@@ -1,0 +1,80 @@
+h2{
+    text-align: center;
+    font-style: oblique;
+}
+.column1{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: gray;
+    width: 32%;
+    float: left;
+    
+}
+.column2{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: gray;
+    width: 32%;
+    float: left;
+}
+.column3{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: gray;
+    width: 32%;
+    float: left;
+}
+.p1{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    float: right;
+    clear: both;
+    padding: 0px;
+    margin: 0%;
+    background-color: blueviolet;
+}
+.pp2{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    float: right;
+    clear: both;
+    padding: 0px;
+    margin: 0%;
+    background-color:brown;
+}
+.p3{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    float: right;
+    clear: both;
+    padding: 0px;
+    margin: 0%;
+    background-color:chocolate;
+}
+.p2{
+    padding: 5px;
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    .column1{
+        width:45% ;
+        float: left;
+    }
+    .column2{
+        width:45% ;
+        float: left;
+    }
+    .column3{
+        width:91.5% ;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .column1,.column2,.column3{
+        width: 90%;
+        align-items: center;
+    }
+}
